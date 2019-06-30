@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessAPI.WebApiConfig">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.WebApiApplication">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Controllers.ChessController">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Controllers\ChessController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Controllers.CreateGameController">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Controllers\CreateGameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Controllers.GamesController">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\GamesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Controllers.TokenController">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\TokenController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Controllers.UsersController">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAgCAQAAAAAAAAAAAAAAAAAAAAoAAAAAQAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Filters.AddChallengeOnUnauthorizedResult" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEA=</HashCode>
+      <FileName>Filters\AddChallengeOnUnauthorizedResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChessAPI.Filters.AuthenticationFailureResult" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAgAAAAAAAAAAAgAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Filters\AuthenticationFailureResult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChessAPI.Filters.HttpAuthenticationChallengeContextExtensions">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\HttpAuthenticationChallengeContextExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Filters.JwtAuthenticationAttribute" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACASAAAAAQBAAFA=</HashCode>
+      <FileName>Filters\JwtAuthenticationAttribute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ChessAPI.Models.UserLogic">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAECAAAAAAQAAgAAAACAAABAAAAAgAAAABAAIAAAQg=</HashCode>
+      <FileName>Logic\UserLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Models.Games">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAIAAAAAAAACAAABAAAAAAAAAAAAAAAEgA=</HashCode>
+      <FileName>Models\Games.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Models.ModelChessDB">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ModelChessDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Models.Users">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAAAAQAAAAAAAECAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessAPI.Token.JWTManager">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAFAAAAAAAAAAAAAAAAAAACAAAAAAIQAAAAA=</HashCode>
+      <FileName>Token\JWTManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
